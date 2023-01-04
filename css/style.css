@@ -9,9 +9,11 @@ main{
     background-color: aqua;
     width: fit-content;
     height: fit-content;
-    padding: 50px;
+    padding: 70px;
     margin-left: 50px;
     border: 4px dotted black;
+    margin-right: 30px;
+    
 }
 
 input{
@@ -31,4 +33,16 @@ input{
 
 fieldset{
     border: 2px dotted black;
+}
+center{
+    display: block;
+}
+
+body{
+    background-color: rgba(0, 255, 255, 0.192);
+    border: 2px solid black;
+    width: fit-content;
+    display: inline-block;
+    margin-left: 300px ;
+    padding: 80px;
 }

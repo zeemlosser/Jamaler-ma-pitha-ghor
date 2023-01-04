@@ -1,0 +1,42 @@
+nav > ul{
+    display: inline-flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 70px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid ghostwhite; */
+    font-weight: 200;
+}
+
+nav li :hover{
+    background-color: rgba(127, 255, 212, 0.377);
+    padding: 0 5px;
+    border: 0.3px  black;
+}
+
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightyellow;
+    padding: 0;
+    border: 2px solid black;
+    width: fit-content;
+    background-color: aquamarine;
+}
+
+
+nav li:hover .dropdown{
+    display: block;
+}
+
+nav{
+    margin-bottom:50px ;
+    
+
+}
